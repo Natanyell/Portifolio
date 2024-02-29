@@ -75,7 +75,33 @@ body {
     font-weight: var(--weight-300);
 }
 
-
+body{
+    background-color: var(--body-color);
+}
+h1,
+h2,
+h3{
+    color: var(--title-color);
+    font-weight: var(--weight-700);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 1.67rem;
+}
+img{
+    max-width: 100%;
+}
+textarea,
+input{
+    background-color: none;
+    border: none;
+    outline: none;
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 
 /*=============== HEADER & NAV ===============*/
