@@ -1,6 +1,108 @@
 /* Google Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root{
-
-}
+/*=============== VARIABLES CSS ===============*/
+:root {
+    --header-height: 6rem;
+  
+    /*========== Colors ==========*/
+    /* Color mode HSL(hue, saturation, lightness) */
+    --first-color: hsl();
+    --title-color: ;
+    --text-color: ;
+    --body-color: ;
+    --container-color: ;
+    --border-color: ;
+  
+    /*========== Font and typography ==========*/
+    /* .5rem = 8px | 1rem = 16px ... */
+    --body-font: ;
+    --second-font: ;
+  
+    --big-font-size: ;
+    --h1-font-size: ;
+    --h2-font-size: ;
+    --h3-font-size: ;
+    --normal-font-size: ;
+    --small-font-size: ;
+    --smaller-font-size: ;
+  
+    /*========== Font weight ==========*/
+    --weight-300: ;
+    --weight-400: ;
+    --weight-500: ;
+    --weight-600: ;
+    --weight-700: ;
+    --weight-900: ;
+  
+    /*========== Transition ==========*/
+    --transition: ;
+  
+    /*========== Border Radius ==========*/
+    --radius: ;
+  
+    /*========== z index ==========*/
+    --z-tooltip: ;
+    --z-fixed: ;
+  }
+  
+  /* Responsive typography */
+  @media screen and (max-width: 992px) {
+    :root {
+      --h2-font-size: ;
+      --h3-font-size: ;
+      --normal-font-size: ;
+      --small-font-size: ;
+      --smaller-font-size: ;
+    }
+  }
+  
+  /*=============== BASE ===============*/
+  
+  /*=============== REUSABLE CSS CLASSES ===============*/
+  
+  /*=============== HEADER & NAV ===============*/
+  
+  /* Active link */
+  
+  /* Change background header */
+  
+  /*=============== HOME ===============*/
+  
+  /*=============== ABOUT ===============*/
+  
+  /* Active tab */
+  
+  /*=============== SERVICES ===============*/
+  
+  /*=============== WORK ===============*/
+  
+  /* Work hover */
+  
+  /*=============== CONTACT ===============*/
+  
+  /*=============== FOOTER ===============*/
+  
+  /*=============== SCROLL UP ===============*/
+  
+  /* Show scrollup */
+  
+  /*=============== BREAKPOINTS ===============*/
+  /* For large devices */
+  @media screen and (max-width: 1200px) {
+  }
+  
+  @media screen and (max-width: 992px) {
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+  }
+  
+  @media screen and (max-width: 576px) {
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+  }
+  
