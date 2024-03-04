@@ -102,6 +102,10 @@ input{
     outline: none;
 }
 /*=============== REUSABLE CSS CLASSES ===============*/
+.container{
+    max-width: 1260px;
+    background-color: var(--first-color);
+}
 
 /*=============== HEADER & NAV ===============*/
 
