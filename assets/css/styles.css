@@ -1,4 +1,5 @@
 /* Google Fontes */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:wght@900&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 
 /*=============== VARIABLES CSS ===============*/
@@ -68,7 +69,7 @@ input,
 textarea,
 body {
     color: var(--text-color);
-    font-family: var(--body-color);
+    font-family: var(--body-font);
     font-size: var(--normal-font-size);
     font-weight: var(--weight-300);
 }
@@ -89,7 +90,7 @@ a{
     text-decoration: none;
 }
 p{
-    line-height: 1.67rem;
+    line-height: 1.67em;
 }
 img{
     max-width: 100%;
