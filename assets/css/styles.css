@@ -126,6 +126,29 @@ input{
     grid-template-columns: 7fr 5fr;
     align-items: center;
 }
+.home__subtitle{
+    font-size: var(--small-font-size);
+    font-weight: var(--weight-400);
+    letter-spacing: 0.25rem;
+    color: white;
+    margin-bottom: 1.25rem;
+    display: block;
+}
+.home__title{
+    font-family: var(--second-font);
+    font-size: var(--big-font-size);
+    font-weight: var(--weight-900);
+}
+.home__title span{
+    color: var(--first-color);
+}
+.home__img{
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    border: 0.75rem solid var(--container-color);
+    margin-left: auto;
+}
 
 /*=============== ABOUT ===============*/
 
