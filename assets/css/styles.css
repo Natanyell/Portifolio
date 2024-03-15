@@ -1,6 +1,5 @@
 /* Google Fontes */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:wght@900&family=Poppins:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googlea pis.com/css?family=Montserrat:wgh t@9005fomily Poppins:wght@300;400; 500;600;700&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -10,7 +9,7 @@
     /* Color mode HSL(hue, saturation, lightness) */
     --first-color: hsl(216, 100%, 59%);
     --title-color: hsl(0, 0%, 100%);
-    --text-color: hsl(0. 0%, 77%);
+    --text-color: hsl(0, 0%, 77%);
     --body-color: hsl(0, 0%, 6%);
     --container-color: hsl(0, 0%, 10%);
     --border-color: hsla(0, 0%, 100%, 0.2);
