@@ -110,6 +110,13 @@ input{
     display: grid;
     gap: 1.75rem;
 }
+.section{
+    padding-block: 8rem;
+}
+.section__title{
+    font-size: var(--h1-font-size);
+    margin-bottom: 1rem;
+}
 
 /*=============== HEADER & NAV ===============*/
 
@@ -150,7 +157,25 @@ input{
 }
 
 /*=============== ABOUT ===============*/
-
+.about{
+    background-color: var(--container-color);
+}
+.about__container{
+    grid-template-columns: 5fr 7fr;
+    align-items: center;
+    column-gap: 4rem;
+}
+.about__img{
+    border-radius: var(--radius);
+}
+.about__description{
+    margin-bottom: 2rem;
+}
+.tabs__btns{
+    display: flex;
+    column-gap: 2.5rem;
+    margin-bottom: 1.25rem;
+}
 /* Active tab */
 
 /*=============== SERVICES ===============*/
