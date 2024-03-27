@@ -43,13 +43,13 @@
             </p>
 
             <div class="tabs__btns">
-              <span class="tabs__btn tab__active">Main skills</span>
-              <span class="tabs__btn">Experience</span>
-              <span class="tabs__btn">Education & Certification</span>
+              <span class="tabs__btn tab__active" data-target="#skills">Main skills</span>
+              <span class="tabs__btn" data-target="#experience">Experience</span>
+              <span class="tabs__btn" data-target="#education">Education & Certification</span>
             </div>
 
-            <div class="tabs__content tab__active">
-              <div class="tabs__item">
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
                 <div class="tabs__data grid">
                   <p class="tabs__description">
                     <span>User experience design</span> - UI/UX 
@@ -67,10 +67,8 @@
                   </p>
                 </div>
               </div>
-            </div>
 
-            <div class="tabs__content">
-              <div class="tabs__item">
+              <div class="tabs__item" data-content id="experience">
                 <div class="tabs__data grid">
                   <p class="tabs__description">
                     <span>Sr.Front-end Enfinner</span> - Google 
@@ -88,10 +86,8 @@
                   </p>
                 </div>
               </div>
-            </div>
 
-            <div class="tabs__content">
-              <div class="tabs__item">
+              <div class="tabs__item" data-content id="education">
                 <div class="tabs__data grid">
                   <p class="tabs__description">
                     <span>Monkey Cursos</span> - Design Gráfico 
@@ -104,7 +100,7 @@
                   </p>
 
                   <p class="tabs__description">
-                    <span>HUAWEI</span> - HCIA-5g 
+                    <span>HUAWEI</span> - HCIA-5G 
                     <span>2024</span>
                   </p>
 

@@ -176,7 +176,46 @@ input{
     column-gap: 2.5rem;
     margin-bottom: 1.25rem;
 }
+.tabs__btn,
+.tabs__description span:first-child{
+    font-weight: var(--weight-500);
+}
+.tabs__btn{
+    cursor: pointer;
+    color: var(--title-color);
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+.tabs__btn::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    height: 2px;
+    background-color: var(--text-color);
+}
+.tabs__data{
+    row-gap: 1rem;
+}
+.tabs__description span:last-child{
+    display: block;
+}
+
 /* Active tab */
+.tabs__btn.tab__active{
+    color: var(--first-color);
+}
+.tabs__btn.tab__active::after{
+    background-color: var(--first-color);
+    width: 100%;
+}
+.tabs__item[data-content]{
+    display: none;
+}
+.tab__active[data-content]{
+    display: block;
+}
 
 /*=============== SERVICES ===============*/
 
