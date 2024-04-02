@@ -194,6 +194,7 @@ input{
     width: 30%;
     height: 2px;
     background-color: var(--text-color);
+    transition: all 0.3s var(--transition);
 }
 .tabs__data{
     row-gap: 1rem;

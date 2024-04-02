@@ -27,6 +27,12 @@ const tabs = document.querySelectorAll('[data-target]'),
             });
 
             target.classList.add('tab__active');
+
+            tabs.forEach((tab) => {
+                tab.classList.remove('tab__active')
+            });
+
+            tab.classList.add('tab__active')
         });
     });
 
