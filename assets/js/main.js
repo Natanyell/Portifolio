@@ -37,3 +37,23 @@ const tabs = document.querySelectorAll('[data-target]'),
     });
 
 /*=============== CONTACT FORM =============== */
+const contactForm =  document.getElementById("contact-form"),
+    contactName = document.getElementById('contact-name'),
+    contactEmail = document.getElementById('contact-email'),
+    contactSubject = document.getElementById('contact-subject'),
+    contactMessage = document.getElementById('contact-message'),
+    errorMessage = document.getElementById('error-message');
+
+const sendEmail = (e) => {
+    e.preventDefault();
+
+    //verifica se o campo possui valor
+    if(contactName.value === '' || contactEmail.value === '' || contactSubject.value === '' || contactMessage.value === '') {
+        // show message 
+        errorMessage.textContent = 'Escreva todos os campos de entrada'
+    } else {
+
+    }
+};
+
+contactForm.addEventListener('submit', sendEmail)

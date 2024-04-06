@@ -224,7 +224,41 @@
       </section>
 
       <!--=============== CONTACT ===============-->
-      <section class="contact section" id="contact"></section>
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Entre em contato</h2>
+
+            <p class="contact__description">Estou disponível para trabalho autônomo. Conecte-se comigo pelo telefone:
+              <a href="tel:+5585987498836">(85)98749-8836</a> ou e-mail: <a href="mailto:rnatanyell@gmail.com">rnatanyell@gmail.com</a>
+            </p>
+
+            <form class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input type="text" name="name" placeholder="Seu Nome *" class="contact__input" id="contact-name"/>
+              </div>
+
+              <div class="contact__form-input">
+                <input type="email" name="email" placeholder="Seu e-mail" class="contact__input" id="contact-email"/>
+              </div>
+
+              <div class="contact__form-input">
+                <input type="text" name="subject" placeholder="Qual o assunto" class="contact__input" id="contact-subject"/>
+              </div>
+
+              <div class="contact__form-input">
+                <textarea name="message" id="contact-message" class="contact__input textarea"  placeholder="Deixe sua Mensagem!"></textarea>
+              </div>
+
+              <input type="submit" value="Enviar" class="btn" />
+
+              <p class="error__message"  id="error-message"></p>
+            </form>
+          </div>
+
+          <img src="assets/img/contact.jpg" alt="" class="contact__img">
+        </div>
+      </section>
     </main>
 
     <!--=============== FOOTER ===============-->
