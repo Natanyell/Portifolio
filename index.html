@@ -1,275 +1,288 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
-    />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>Portifólio - Natanyell</title>
-  </head>
-  <body>
-    <!--=============== HEADER ===============-->
-    <header class="header" id="header"></header>
 
-    <!--=============== MAIN ===============-->
-    <main class="main">
-      <!--=============== HOME ===============-->
-      <section class="home" id="home">
-        <div class="home__container container grid">
-          <div class="home__content">
-            <span class="home__subtitle">Bem- Vindo ao meu mundo !</span>
-            <h1 class="home__title">
-              Olá, Eu sou Natanyell Romão <span>Designer e Desenvolvedor web</span>
-            </h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <title>Portfólio - Natanyell</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header"></header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <span class="home__subtitle">Bem- Vindo ao meu mundo !</span>
+          <h1 class="home__title">
+            Olá, Eu sou Natanyell Romão <span>Designer e Desenvolvedor web</span>
+          </h1>
+        </div>
+
+        <img src="assets/img/home.jpg" alt="" class="home__img" />
+      </div>
+    </section>
+
+    <!--=============== ABOUT ===============-->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <img src="assets/img/about.png" alt="" class="about__img">
+
+        <div class="about__content">
+          <h2 class="section__title">Sobre Mim</h2>
+
+          <p class="about__description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit rerum adipisci debitis aperiam alias nam
+            eveniet mollitia in quam accusamus eum quas tempore a soluta velit quo, voluptatem nemo ab!
+          </p>
+
+          <div class="tabs__btns">
+            <span class="tabs__btn tab__active" data-target="#skills">Main skills</span>
+            <span class="tabs__btn" data-target="#experience">Experience</span>
+            <span class="tabs__btn" data-target="#education">Education & Certification</span>
           </div>
 
-          <img src="assets/img/home.jpg" alt="" class="home__img"/>
-        </div>
-      </section>
+          <div class="tabs__content">
+            <div class="tabs__item tab__active" data-content id="skills">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>User experience design</span> - UI/UX
+                  <span>Delight the user and make it work.</span>
+                </p>
 
-      <!--=============== ABOUT ===============-->
-      <section class="about section" id="about">
-        <div class="about__container container grid">
-          <img src="assets/img/about.png" alt="" class="about__img">
+                <p class="tabs__description">
+                  <span>Web and user interface design</span> - Development
+                  <span>Websites, web experiences, ...</span>
+                </p>
 
-          <div class="about__content">
-            <h2 class="section__title">Sobre Mim</h2>
-
-            <p class="about__description">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit rerum adipisci debitis aperiam alias nam eveniet mollitia in quam accusamus eum quas tempore a soluta velit quo, voluptatem nemo ab!
-            </p>
-
-            <div class="tabs__btns">
-              <span class="tabs__btn tab__active" data-target="#skills">Main skills</span>
-              <span class="tabs__btn" data-target="#experience">Experience</span>
-              <span class="tabs__btn" data-target="#education">Education & Certification</span>
-            </div>
-
-            <div class="tabs__content">
-              <div class="tabs__item tab__active" data-content id="skills">
-                <div class="tabs__data grid">
-                  <p class="tabs__description">
-                    <span>User experience design</span> - UI/UX 
-                    <span>Delight the user and make it work.</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Web and user interface design</span> - Development 
-                    <span>Websites, web experiences, ...</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Interaction design</span> - Animation 
-                    <span>I Like to move it move it.</span>
-                  </p>
-                </div>
-              </div>
-
-              <div class="tabs__item" data-content id="experience">
-                <div class="tabs__data grid">
-                  <p class="tabs__description">
-                    <span>Sr.Front-end Enfinner</span> - Google 
-                    <span>2018 - Current</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Front-end Enginner</span> - Microsoft 
-                    <span>2017 - 2018</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Software Enginner</span> - Alibaba 
-                    <span>2013 - 2014</span>
-                  </p>
-                </div>
-              </div>
-
-              <div class="tabs__item" data-content id="education">
-                <div class="tabs__data grid">
-                  <p class="tabs__description">
-                    <span>Monkey Cursos</span> - Design Gráfico 
-                    <span>2021</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Apredendo a programar com games</span> - Criação de Jogos 
-                    <span>2023</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>HUAWEI</span> - HCIA-5G 
-                    <span>2024</span>
-                  </p>
-
-                  <p class="tabs__description">
-                    <span>Amazon Web Services</span> - Computação em nuvem  
-                    <span>2024</span>
-                  </p>
-                </div>
+                <p class="tabs__description">
+                  <span>Interaction design</span> - Animation
+                  <span>I Like to move it move it.</span>
+                </p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
 
-      <!--=============== SERVICES ===============-->
-      <section class="services section" id="services">
-        <h2 class="section__title">Meus Serviços</h2>
-        <p class="section__description">There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration</p>
+            <div class="tabs__item" data-content id="experience">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Sr.Front-end Enfinner</span> - Google
+                  <span>2018 - Current</span>
+                </p>
 
-        <div class="services__container container grid">
-          <div class="services__item">
-            <i class="uil uil-rss-interface services__icon"></i>
+                <p class="tabs__description">
+                  <span>Front-end Enginner</span> - Microsoft
+                  <span>2017 - 2018</span>
+                </p>
 
-            <h3 class="services__title">Business Stratagy</h3>
-            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis repellatuid?</p>
-          </div>
-
-          <div class="services__item">
-            <i class="uil uil-layer-group services__icon"></i>
-
-            <h3 class="services__title">Website Development</h3>
-            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis repellatuid?</p>
-          </div>
-
-          <div class="services__item">
-            <i class="uil uil-users-alt services__icon"></i>
-
-            <h3 class="services__title">Marketing & Reporting</h3>
-            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis repellatuid?</p>
-          </div>
-
-          <div class="services__item">
-            <i class="uil uil-desktop services__icon"></i>
-
-            <h3 class="services__title">Mobile Development</h3>
-            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis repellatuid?</p>
-          </div>
-
-          <div class="services__item">
-            <i class="uil uil-users-alt services__icon"></i>
-
-            <h3 class="services__title">Marketing & Reporting</h3>
-            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis repellatuid?</p>
-          </div>
-
-          <div class="services__item">
-            <i class="uil uil-desktop services__icon"></i>
-
-            <h3 class="services__title">Mobile Development</h3>
-            <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis repellatuid?</p>
-          </div>
-        </div>
-      </section>
-
-      <!--=============== PORTFOLIO ===============-->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">My Lateste Project</h2>
-        <p class="section__description">There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration</p>
-
-        <div class="portfolio__container container grid">
-          <div class="portfolio__item">
-            <img src="assets/img/portfolio-1.jpg" alt="" class="portfolio__img">
-
-            <div class="portfolio__data">
-              <p class="portfolio__subtitle">Site</p>
-              <h3 class="portfolio__title">Informath</h3>
-              <p class="portfolio__description">Site especializado em cálculos matemáticos automaticos.</p>
+                <p class="tabs__description">
+                  <span>Software Enginner</span> - Alibaba
+                  <span>2013 - 2014</span>
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div class="portfolio__item">
-            <img src="assets/img/portfolio-2.jpg" alt="" class="portfolio__img">
+            <div class="tabs__item" data-content id="education">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Monkey Cursos</span> - Design Gráfico
+                  <span>2021</span>
+                </p>
 
-            <div class="portfolio__data">
-              <p class="portfolio__subtitle">Site</p>
-              <h3 class="portfolio__title">Curso de Libras</h3>
-              <p class="portfolio__description">Site especializado para aprender a Lingua de sinais brasileira.</p>
-            </div>
-          </div>
+                <p class="tabs__description">
+                  <span>Apredendo a programar com games</span> - Criação de Jogos
+                  <span>2023</span>
+                </p>
 
-          <div class="portfolio__item">
-            <img src="assets/img/portfolio-3.jpg" alt="" class="portfolio__img">
+                <p class="tabs__description">
+                  <span>HUAWEI</span> - HCIA-5G
+                  <span>2024</span>
+                </p>
 
-            <div class="portfolio__data">
-              <p class="portfolio__subtitle">Design Figma</p>
-              <h3 class="portfolio__title">Teleconsulta</h3>
-              <p class="portfolio__description">Design criado para um app de consulta para se comunicar e marcar um agendamento com um médico.</p>
-            </div>
-          </div>
-
-          <div class="portfolio__item">
-            <img src="assets/img/portfolio-4.jpg" alt="" class="portfolio__img">
-
-            <div class="portfolio__data">
-              <p class="portfolio__subtitle">Site</p>
-              <h3 class="portfolio__title">Motz</h3>
-              <p class="portfolio__description">Trabalho criado para recriação do site da Motz.</p>
-            </div>
-          </div>
-
-          <div class="portfolio__item">
-            <img src="assets/img/portfolio-5.jpg" alt="" class="portfolio__img">
-
-            <div class="portfolio__data">
-              <p class="portfolio__subtitle">Design Figma</p>
-              <h3 class="portfolio__title">Portifólio</h3>
-              <p class="portfolio__description">Modelo criado para representação do Portifólio</p>
+                <p class="tabs__description">
+                  <span>Amazon Web Services</span> - Computação em nuvem
+                  <span>2024</span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!--=============== CONTACT ===============-->
-      <section class="contact section" id="contact">
-        <div class="contact__container container grid">
-          <div class="contact__content">
-            <h2 class="section__title">Entre em contato</h2>
+    <!--=============== SERVICES ===============-->
+    <section class="services section" id="services">
+      <h2 class="section__title">Meus Serviços</h2>
+      <p class="section__description">There are many variations of passages of Lorem ipsum available, but the majority
+        have suffered alteration</p>
 
-            <p class="contact__description">Estou disponível para trabalho autônomo. Conecte-se comigo pelo telefone:
-              <a href="tel:+5585987498836">(85)98749-8836</a> ou e-mail: <a href="mailto:rnatanyell@gmail.com">rnatanyell@gmail.com</a>
-            </p>
+      <div class="services__container container grid">
+        <div class="services__item">
+          <i class="uil uil-rss-interface services__icon"></i>
 
-            <form class="contact__form" id="contact-form">
-              <div class="contact__form-input">
-                <input type="text" name="name" placeholder="Seu Nome *" class="contact__input" id="contact-name"/>
-              </div>
-
-              <div class="contact__form-input">
-                <input type="email" name="email" placeholder="Seu e-mail" class="contact__input" id="contact-email"/>
-              </div>
-
-              <div class="contact__form-input">
-                <input type="text" name="subject" placeholder="Qual o assunto" class="contact__input" id="contact-subject"/>
-              </div>
-
-              <div class="contact__form-input">
-                <textarea name="message" id="contact-message" class="contact__input textarea"  placeholder="Deixe sua Mensagem!"></textarea>
-              </div>
-
-              <input type="submit" value="Enviar" class="btn" />
-
-              <p class="error__message"  id="error-message"></p>
-            </form>
-          </div>
-
-          <img src="assets/img/contact.jpg" alt="" class="contact__img">
+          <h3 class="services__title">Business Stratagy</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis
+            repellatuid?</p>
         </div>
-      </section>
-    </main>
 
-    <!--=============== FOOTER ===============-->
-    <footer class="footer"></footer>
+        <div class="services__item">
+          <i class="uil uil-layer-group services__icon"></i>
 
-    <!--=============== SCROLL UP ===============-->
+          <h3 class="services__title">Website Development</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis
+            repellatuid?</p>
+        </div>
 
-    <!--=============== EMAIL JS ===============-->
-    <script src=""></script>
+        <div class="services__item">
+          <i class="uil uil-users-alt services__icon"></i>
 
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
-  </body>
+          <h3 class="services__title">Marketing & Reporting</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis
+            repellatuid?</p>
+        </div>
+
+        <div class="services__item">
+          <i class="uil uil-desktop services__icon"></i>
+
+          <h3 class="services__title">Mobile Development</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis
+            repellatuid?</p>
+        </div>
+
+        <div class="services__item">
+          <i class="uil uil-users-alt services__icon"></i>
+
+          <h3 class="services__title">Marketing & Reporting</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis
+            repellatuid?</p>
+        </div>
+
+        <div class="services__item">
+          <i class="uil uil-desktop services__icon"></i>
+
+          <h3 class="services__title">Mobile Development</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis
+            repellatuid?</p>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== PORTFOLIO ===============-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">My Lateste Project</h2>
+      <p class="section__description">There are many variations of passages of Lorem ipsum available, but the majority
+        have suffered alteration</p>
+
+      <div class="portfolio__container container grid">
+        <div class="portfolio__item">
+          <img src="assets/img/portfolio-1.jpg" alt="" class="portfolio__img">
+
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Site</p>
+            <h3 class="portfolio__title">Informath</h3>
+            <p class="portfolio__description">Site especializado em cálculos matemáticos automaticos.</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <img src="assets/img/portfolio-2.jpg" alt="" class="portfolio__img">
+
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Site</p>
+            <h3 class="portfolio__title">Curso de Libras</h3>
+            <p class="portfolio__description">Site especializado para aprender a Lingua de sinais brasileira.</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <img src="assets/img/portfolio-3.jpg" alt="" class="portfolio__img">
+
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Design Figma</p>
+            <h3 class="portfolio__title">Teleconsulta</h3>
+            <p class="portfolio__description">Design criado para um app de consulta para se comunicar e marcar um
+              agendamento com um médico.</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <img src="assets/img/portfolio-4.jpg" alt="" class="portfolio__img">
+
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Site</p>
+            <h3 class="portfolio__title">Motz</h3>
+            <p class="portfolio__description">Trabalho criado para recriação do site da Motz.</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <img src="assets/img/portfolio-5.jpg" alt="" class="portfolio__img">
+
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Design Figma</p>
+            <h3 class="portfolio__title">Portifólio</h3>
+            <p class="portfolio__description">Modelo criado para representação do Portifólio</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== CONTACT ===============-->
+    <section class="contact section" id="contact">
+      <div class="contact__container container grid">
+        <div class="contact__content">
+          <h2 class="section__title">Entre em contato</h2>
+
+          <p class="contact__description">Estou disponível para trabalho autônomo. Conecte-se comigo pelo telefone:
+            <a href="tel:+5585987498836">(85)98749-8836</a> ou e-mail: <a
+              href="mailto:rnatanyell@gmail.com">rnatanyell@gmail.com</a>
+          </p>
+
+          <form class="contact__form" id="contact-form">
+            <div class="contact__form-input">
+              <input type="text" name="name" placeholder="Seu Nome *" class="contact__input" id="contact-name" />
+            </div>
+
+            <div class="contact__form-input">
+              <input type="email" name="email" placeholder="Seu e-mail" class="contact__input" id="contact-email" />
+            </div>
+
+            <div class="contact__form-input">
+              <input type="text" name="subject" placeholder="Qual o assunto" class="contact__input"
+                id="contact-subject" />
+            </div>
+
+            <div class="contact__form-input">
+              <textarea name="message" id="contact-message" class="contact__input textarea"
+                placeholder="Deixe sua Mensagem!"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar" class="btn" />
+
+            <p class="error__message" id="error-message"></p>
+          </form>
+        </div>
+
+        <img src="assets/img/contact.jpg" alt="" class="contact__img">
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer"></footer>
+
+  <!--=============== SCROLL UP ===============-->
+
+  <!--=============== EMAIL JS ===============-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
