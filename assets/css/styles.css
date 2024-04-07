@@ -63,7 +63,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -237,21 +238,24 @@ input {
 }
 
 /* Change background header */
-.scroll-header{
+.scroll-header {
     position: fixed;
     background-color: var(--container-color);
     box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.25);
     animation: slide-down 0.7s;
 }
-@keyframes slide-down{
-    0%{
+
+@keyframes slide-down {
+    0% {
         transform: translateY(-100%);
     }
-    100%{
+
+    100% {
         transform: translateY(0);
     }
 }
-.scroll-header .nav{
+
+.scroll-header .nav {
     height: var(--header-height);
 }
 
@@ -570,7 +574,7 @@ input {
 }
 
 /*=============== SCROLL UP ===============*/
-.scrollup{
+.scrollup {
     position: fixed;
     right: 1rem;
     bottom: -100%;
@@ -579,45 +583,72 @@ input {
     border-radius: 50%;
     background-color: var(--title-color);
     display: grid;
-    place-items:  center;
+    place-items: center;
     z-index: var(--z-fixed);
     transition: all 0.4s var(--transition);
 }
-.scrollup__icon{
+
+.scrollup__icon {
     color: var(--first-color);
     font-size: 2.25rem;
     line-height: 1;
 }
+
 /* Show scrollup */
-.show-scroll{
+.show-scroll {
     bottom: 3rem;
 }
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 1200px) {
-    .container{
+    .container {
         max-width: 960px;
     }
-    .nav__btns{
+
+    .nav__btns {
         display: none;
     }
-    .home{
+
+    .home {
         padding-top: 11rem;
     }
+
     .home__container,
-    .about__container{
+    .about__container {
         grid-template-columns: 1fr;
     }
-    .home__container{
+
+    .home__container {
         row-gap: 2rem;
     }
-    .home__content{
+
+    .home__content {
         order: 1;
     }
+
     .home__img,
-    .about__img{
+    .about__img {
         margin-inline: auto;
+    }
+
+    .home__img {
+        border: 0.5rem solid var(--container-color);
+        width: 380px;
+        height: 380px;
+    }
+
+    .about__container {
+        row-gap: 2.5rem;
+    }
+
+    .services__container,
+    .portfolio__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact__container {
+        column-gap: 2rem;
     }
 }
 
