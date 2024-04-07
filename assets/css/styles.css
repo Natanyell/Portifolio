@@ -49,11 +49,13 @@
 /* Responsive typography */
 @media screen and (max-width: 992px) {
     :root {
-        --h2-font-size: ;
-        --h3-font-size: ;
-        --normal-font-size: ;
-        --small-font-size: ;
-        --smaller-font-size: ;
+        --header-height: 5rem;
+
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: 0.9375rem;
+        --smaller-font-size: 0.813rem;
     }
 }
 
@@ -652,12 +654,83 @@ input {
     }
 }
 
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
 
-/* For medium devices */
-@media screen and (max-width: 768px) {}
+    .nav {
+        height: var(--header-height);
+        column-gap: 1.25rem;
+    }
 
-@media screen and (max-width: 576px) {}
+    .nav__logo {
+        font-size: 2rem;
+    }
 
-/* For small devices */
-@media screen and (max-width: 350px) {}
+    .nav__btns,
+    .nav__toggle,
+    .nav__close {
+        display: block;
+    }
+
+    .nav__link-btn {
+        display: none;
+    }
+
+    .nav__menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 60vw;
+        height: 100vh;
+        background-color: var(--container-color);
+        padding: 3.5rem;
+        transition: all 0.8s var(--transition);
+    }
+    .show-menu{
+        right:  0;
+    }
+    .nav__list{
+        flex-direction: column;
+        row-gap: 1.125rem;
+    }
+    .nav__close{
+        font-size: 1.5rem;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+
+    }
+    .nav__socials{
+        column-gap: 1rem;
+    }
+    .nav__toggle{
+        font-size: var(--h2-font-size);
+        
+    }
+    .nav__close,
+    .nav__toggle{
+        cursor: pointer;
+    }
+    .home{
+        padding-top: 9rem;
+    }
+    .home__img{
+        width: 320px;
+        height: 320px;
+    }
+    .services__icon{
+        font-size: 2.5rem;
+    }
+    .services__title{
+        margin-block: 1.5rem 1rem;
+    }
+
+    /* For medium devices */
+    @media screen and (max-width: 768px) {}
+
+    @media screen and (max-width: 576px) {}
+
+    /* For small devices */
+    @media screen and (max-width: 350px) {}
