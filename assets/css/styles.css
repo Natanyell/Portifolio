@@ -294,7 +294,7 @@ input {
     width: 420px;
     height: 420px;
     border-radius: 50%;
-    border: 0.75rem solid var(--container-color);
+    border: 0.75rem solid var(--title-color);
     margin-left: auto;
 }
 
