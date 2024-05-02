@@ -437,8 +437,8 @@ input {
 }
 
 .portfolio__img {
-    width: 390px;
-    height: 532px;
+    width: 500px;
+    height: 500px;
     vertical-align: middle;
     transition: all 1s var(--transition);
 }
@@ -579,11 +579,14 @@ input {
 }
 
 .footer__copyright {
-    font-size: var(--small-font-size);
+    font-size: .9rem;
     font-weight: var(--weight-400);
     justify-self: flex-end;
 }
-
+.footer__copyright a {
+    color: var(--title-color);
+    font-weight: var(--weight-500);
+}
 /*=============== SCROLL UP ===============*/
 .scrollup {
     position: fixed;
