@@ -298,6 +298,10 @@ input {
     margin-left: auto;
 }
 
+.home__curriculo{
+    margin-top: 2.5rem;
+}
+
 /*=============== ABOUT ===============*/
 .about {
     background-color: var(--container-color);
@@ -631,7 +635,8 @@ input {
     }
 
     .home__img,
-    .about__img {
+    .about__img,
+    .home__curriculo {
         margin-inline: auto;
     }
 
