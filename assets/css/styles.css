@@ -301,6 +301,10 @@ input {
 .home__curriculo{
     margin-top: 2.5rem;
 }
+.curriculo__icon{
+    font-size: 1.5rem;
+    line-height: 0.5;
+}
 
 /*=============== ABOUT ===============*/
 .about {
@@ -641,7 +645,7 @@ input {
     }
 
     .home__img {
-        border: 0.5rem solid var(--container-color);
+        border: 0.5rem solid var(--title-color);
         width: 380px;
         height: 380px;
     }
