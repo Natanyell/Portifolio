@@ -437,8 +437,8 @@ input {
 }
 
 .portfolio__img {
+    height: 540px;
     width: 500px;
-    height: 500px;
     vertical-align: middle;
     transition: all 1s var(--transition);
 }
