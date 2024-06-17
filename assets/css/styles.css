@@ -298,10 +298,11 @@ input {
     margin-left: auto;
 }
 
-.home__curriculo{
+.home__curriculo {
     margin-top: 2.5rem;
 }
-.curriculo__icon{
+
+.curriculo__icon {
     font-size: 1.5rem;
     line-height: 0.5;
 }
@@ -583,10 +584,12 @@ input {
     font-weight: var(--weight-400);
     justify-self: flex-end;
 }
+
 .footer__copyright a {
     color: var(--title-color);
     font-weight: var(--weight-500);
 }
+
 /*=============== SCROLL UP ===============*/
 .scrollup {
     position: fixed;
