@@ -320,6 +320,11 @@ input {
 
 .about__img {
     border-radius: var(--radius);
+    animation: var(--transition);
+}
+.about__img:hover{
+    transition: all 0.3s var(--transition);
+    box-shadow: 4px 4px 25px 12px  var(--first-color);
 }
 
 .about__description {
